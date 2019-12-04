@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Forkask</title>
+		<style>
+			*{
+				box-sizing: border-box;
+				margin: 0px;
+				padding: 0px;
+				
+			}
+			body{
+				background-color: rgb(24, 96, 145);
+			}
+			.searchContainer{
+				padding: 35px 0px;
+				width: 650px;
+				margin: 300px auto;
+				background-color: #ccc;
+				border-radius: 5px;
+				box-shadow: 2px 3px 3px 2px #f4f4f4
+
+			
+
+
+
+			}
+			h3, h2{
+				text-align: left;
+				font-family: sans-serif;
+				margin-left: 50px;
+				color:  rgb(16, 16, 32);
+			}
+			.input-control{
+				padding: 6px;
+				border: none;
+				height: 40px
+			}
+			#searchbtn{
+				width: 150px;
+				color: white;
+				background-color: rgb(16, 16, 32);
+				border-radius:  0px 5px 5px 0px ;
+				font-size: 16px
+			} 
+			#searchinput{
+				
+				border-radius: 5px  0px 0px 5px;
+				margin-left: 50px;
+				width: 400px;
+				font-size: 16px
+
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div class="searchContainer">
+			<h2>Search A place for Forcast</h2><br>
+			<input type="text" placeholder="Enter a place of Interest" id="searchinput" class="input-control">
+			<input type="button" value="Search" id="searchbtn" class="input-control"> 
+		</div>
+		<div class="content-div">
+			<div class="place"></div>
+			<div class="icon"></div>
+			<div class="description"></div>
+
+			<div class="weather-conditions">
+
+				<!-- <div class="details">
+					<div class="wind-speed">Wind Speed</div>
+					<div class="value" data-wind-speed>45</div>
+				</div>
+				<div class="details">
+					<div class="temperature">Temperature</div>
+					<div class="value" data-temperature>45<span>F</span></div>
+				</div>
+				<div class="details" id="humidity">
+					<div class="humidity">Humidity</div>
+					<div class="value" data-humidity>45</div>
+				</div> -->
+				
+			</div>
+
+		</div>
+		<script src="process.js"></script>
+	</body>
+</html>

@@ -1,0 +1,19 @@
+.error{
+    color: white;
+    background-color: rgb(201, 91, 91);
+    padding: 10px;
+    text-align: center
+}
+.users{
+    background-color: #f4f4f4;
+    padding: 10px; 
+}
+.msg{
+    
+}
+.success{
+    color: white;
+    background-color: rgb(56, 212, 152);
+    padding: 10px;
+    text-align: center
+}
